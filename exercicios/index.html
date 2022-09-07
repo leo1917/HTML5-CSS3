@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia html5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>tente abrir em varios aparelhos </p>
+    <picture>
+        <source media="(max-width:750 )" srcset="EX011/imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="EX011/imagens/foto-m.png" type="image/png">
+        <img src="EX011/imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vanos reproduzir audio em HTML5</p>
+    <audio src="EX011/midia/alceuvalenca.mp3" controls autoplay></audio>
+
+    <audio>
+        <source src="EX011/midia/Caetano Veloso.mp3" type="audio/mpeg">
+        <source src="EX011/midia/Caetano Veloso.ogg" type="audio/ogg">
+        <source src="EX011/midia/Caetano Veloso.wav" type="audio/wav">
+    </audio>
+</body>
+</html>

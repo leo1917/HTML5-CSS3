@@ -1,0 +1,7 @@
+div>p{display: none;}
+H1{font-family: Arial, Helvetica, sans-serif;}
+body{font-family: Arial, Helvetica, sans-serif;}
+div:hover>p{display: block;}
+div:hover>p{color:rgb(196, 9, 9); background-color: white;}
+button{color: rgb(196, 9, 9); font-family: Georgia, 'Times New Roman', Times, serif; font-size: 20px;}
+button{background-color: rgb(255, 251, 8); width: 300px;}
